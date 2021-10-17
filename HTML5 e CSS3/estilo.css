@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+#cabecalho{
+    clear: both;
+    width: 94%;
+    height: 135px;
+    max-width: 1280px;
+    min-width: 475px;
+    color: rgb(158, 157, 157);
+    margin: 0px auto;
+    margin-top: 0px;
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+} 
+
+#cabecalho h1{
+    margin-top: 10px;
+    clear: both;
+    margin-left: 0px;
+    display: inline-block;
+    font-size: 2.8em;
+    line-height: 100%;
+    
+}
+
+
+ #cabint h3{
+    margin: 10px;
+    font-size: 100%;
+    margin-bottom: 20px;
+    color: rgb(158, 157, 157);
+    clear: both;
+    
+}
+#cabint h2{
+
+    padding-top: 10px; 
+    margin-left: 8px;    
+    color: rgb(158, 157, 157);
+}
+#nav{
+    
+    z-index: 2;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    min-width: 480.45px;
+    margin-right: 8px;
+    text-align: right;
+    list-style: none;   
+    margin-top: 96px;
+    
+}
+#nav li{
+    display: inline-block;
+    font-size: 1.2em;
+    padding-left: 4px ;
+    
+    
+}
+#nav li:hover{
+  
+    background-color: rgb(158, 157, 157);
+    color: black;
+    transition: .3s;
+    
+}
+#nav a{
+    text-decoration: none;
+    color: rgb(158, 157, 157);
+    padding: 0px;
+    margin: 0px;
+    
+}
+#nav a:hover{
+    background-color: rgb(158, 157, 157);
+    color: black;
+    transition: .2s;
+}
+
+main{
+    min-width: 482px;
+    border-radius: 2px;
+    margin: 30px auto;
+    width: 80%;
+    color: rgb(158, 157, 157);
+    height: auto;
+    background-color:black;
+    
+
+}
+article{
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+     padding-right: 18px;
+}
+article p{
+    line-height: 1.7em;
+    padding: 10px;
+    padding-left: 10px;
+   
+    text-align: justify;
+    
+}
+
+.img img{
+    width: 95%;
+    padding: 10px;
+    min-width: 200px;
+    overflow: hidden;
+}
+
+.img{
+    float: left;
+    width: 60%;
+    min-width: 100px; 
+    overflow: hidden;
+    margin-right: 8px;
+}
+.img .legenda{
+    font-size: 14px;
+    float: left;
+    width: 80%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+#clear{
+    clear: both;
+}
+
+
